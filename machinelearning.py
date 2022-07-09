@@ -4,7 +4,9 @@ import sklearn
 import pickle
 import os
 
+# Machine learning part
 STATIC_DIR = ''
+
 
 # face detection
 face_detector_model = cv2.dnn.readNetFromCaffe(os.path.join(STATIC_DIR,'models/deploy.prototxt.txt'),
