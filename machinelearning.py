@@ -6,7 +6,6 @@ import os
 
 STATIC_DIR = ''
 
-
 # face detection
 face_detector_model = cv2.dnn.readNetFromCaffe(os.path.join(STATIC_DIR,'models/deploy.prototxt.txt'),
                                                os.path.join(STATIC_DIR,'models/res10_300x300_ssd_iter_140000.caffemodel'))
