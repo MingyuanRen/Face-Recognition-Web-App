@@ -4,7 +4,7 @@ import sklearn
 import pickle
 import os
 
-# Machine learning part
+# Machine learning part 
 STATIC_DIR = ''
 
 
